@@ -10,9 +10,18 @@ var firstAndPike = {
   randomHourlyCust:[],
   totalCookieSoldPerHour: []
   totalDailyCookiesSales: 0,
-  calculateRandomCustPerHour: function()
+  calculateRandomCustPerHour: function() {
+    for over this (var i = 0; i < hours.length; i++); {
+      this.randomCustPerHour.push(math.floor(math.random() * (this.maxCustPerHour - this.minCustPerHour + 1)) + this.minCustPerHour);
+      console.log(this.randomCustPerHour;
 
-console.log(this.randomCustPerHour, 'random customers per hour' = this.minCustPerHour + 1)
+  },
+  calcTotalCookiesSoldPerHour: function() {
+    this.totalCookieSoldPerHour.push('');
+  },
+  render: function() {}
 
-for over this (var i = 0; i < hours.length; i++) {
+//console.log(this.randomCustPerHour, 'random customers per hour' = this.minCustPerHour + 1)
+
+
 }
