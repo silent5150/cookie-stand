@@ -13,5 +13,14 @@ var firstAndPike = {
   totalDailyCookiesSales: function() {
     for (var i = o; i< hours.length; i++) {
       this.randomCustPerHour.push(Math.floor(Math.random() * (this.maxCustPerHour - this.minCustPerHour + 1)) +this.minCustPerHour);
+      console.log(this.randomCustPerHour,'random customers per hour');
     }
+  },
+  calcTotalCookiesSoldEachHour:function() {
+    this.calcRacndomCustPerHour();
+    for (var i = 0; i < hours.length; i++) {
+      this.totalCookieSoldPerHour.push(Math.ceil(this.randomCustPerHour[i] * this.avgCookiesPerCust));
+      console.log(this.totalDailyCookiesSales, 'running total cookies sold daily');
+    }
+    console.log(this.totalCookieSoldPerHour, 'cookies sold per hour');
   }
