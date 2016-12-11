@@ -1,32 +1,39 @@
 var hours = ['6am', '7am', '8am', '9am', '10am', '11am', '12pm', '1pm', '2pm', '3pm', '4pm', '5pm', '6pm', '7pm'];
 
+
+
 var firstAndPike = {
   locationName: 'First and Pike',
-  minCustPerHour: 23,
-  maxCustPerHour: 65,
-  avgCookiesPerCust: 6.3,
+  minCustomerPerHour: 23,
+  maxCustomerPerHour: 65,
+  avgCookiesPerCust: 6.3
+  randomCustomerPerHour: function()
 };
 var seaTacAirport = {
   locationName: 'SeaTac Airport',
-  minCustPerHour: 3,
-  maxCustPerHour: 24,
+  minCustomerPerHour: 3,
+  maxCustomerPerHour: 24,
   avgCookiesPerCust: 1.2,
+  randomCustomerPerHour: function()
 };
 var seattleCenter = {
   locationName: 'Seattle Center',
-  minCustPerHour: 11,
-  maxCustPerHour: 38,
+  minCustomerPerHour: 11,
+  maxCustomerPerHour: 38,
   avgCookiesPerCust: 3.7,
+  randomCustomerPerHour: function()
 };
 var capitolHill = {
   ocationName: 'Capitol Hill',
-  minCustPerHour: 20,
-  maxCustPerHour: 38,
+  minCustomerPerHour: 20,
+  maxCustomerPerHour: 38,
   avgCookiesPerCust: 2.3,
+  randomCustomerPerHour: function()
 };
 var alki = {
   locationName: 'Alki',
-  minCustPerHour: 2,
-  maxCustPerHour: 16,
+  minCustomerPerHour: 2,
+  maxCustomerPerHour: 16,
   avgCookiesPerCust: 4.6,
+  randomCustomerPerHour: function()
 };
