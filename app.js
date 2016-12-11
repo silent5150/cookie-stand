@@ -14,4 +14,4 @@ var firstAndPike = {
     for (var i = o; i< hours.length; i++) {
       this.randomCustPerHour.push(Math.floor(Math.random() * (this.maxCustPerHour - this.minCustPerHour + 1)) +this.minCustPerHour);
     }
-  },
+  }
