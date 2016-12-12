@@ -1,5 +1,9 @@
 * {
 color: salmon
+<<<<<<< HEAD
+=======
+  outline: 2px dotted white;
+>>>>>>> aca4c368aee91af0d3dfdb91d1e461fbebb4744b
   }
   body {
     font-family: cursive;
